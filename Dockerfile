@@ -1,8 +1,6 @@
 FROM java:8-jre-alpine
 
-MAINTAINER Maxim Zalysin <zalysin.m@gmail.com>
-
-ENV TRACCAR_VERSION 4.8
+ENV TRACCAR_VERSION 5.9
 
 WORKDIR /opt/traccar
 
